@@ -1,4 +1,4 @@
-name: Publish Docker Image
+ name: Publish Docker Image
 
 # To manually run Workflow
 on: workflow_dispatch
@@ -13,8 +13,8 @@ on: workflow_dispatch
 
 env:
   # Use docker.io for Docker Hub if empty
-# REGISTRY: ghcr.io
-  REGISTRY: docker.io
+  REGISTRY: ghcr.io
+# REGISTRY: docker.io
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
