@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Bikin Docker
 
 on:
   push:
